@@ -11,14 +11,14 @@ Example
 	// Create the tab group
 	var tabGroup = Titanium.UI.createTabGroup();
 
-	var win1 = Titanium.UI.createWindow({ title:'Tab 1', height: 440, tabBarHidden: true });
+	var win1 = Titanium.UI.createWindow({ title:'Tab 1' });
 	var tab1 = Titanium.UI.createTab({ 
 		icon: 'home.png',
 		selectedIcon: 'home_s.png',
 		title:'Window 1',
 		custom: true, window:win1 
 	});
-	var win2 = Titanium.UI.createWindow({ title:'Tab 2', height: 440, tabBarHidden: true });
+	var win2 = Titanium.UI.createWindow({ title:'Tab 2'});
 	var tab2 = Titanium.UI.createTab({ 
 		icon: 'home.png',
     	title: 'Window 2',
